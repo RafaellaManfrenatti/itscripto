@@ -82,7 +82,7 @@ button.sing-out:hover{
 }
 
 .apresentacao {
-    background: url(/src/img/background.png) no-repeat center 0;
+    background: url(./src/img/background.png) no-repeat center 0;
     padding-top: 30px;
     min-height: 100%;
     min-width: 100%;
@@ -181,7 +181,7 @@ button.sing-out:hover{
 }
 
 #about {
-    background: url(/src/img/bg-about.png) center 0 no-repeat;
+    background: url(./src/img/bg-about.png) center 0 no-repeat;
     height: 1000px;
 }
 
@@ -383,7 +383,7 @@ button.sing-out:hover{
 }
 
 .newsletter-submit {
-    background: url(/src/img/send-email.png) 0 0 no-repeat;
+    background: url(./src/img/send-email.png) 0 0 no-repeat;
     width: 34px;
     height: 34px;
     border: none;
