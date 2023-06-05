@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
@@ -82,7 +84,7 @@ button.sing-out:hover{
 }
 
 .apresentacao {
-    background: url("../src/img/background.png")  center 0 no-repeat;
+    background: url(/src/img/background.png) no-repeat center 0;
     padding-top: 30px;
     min-height: 100%;
     min-width: 100%;
@@ -181,7 +183,7 @@ button.sing-out:hover{
 }
 
 #about {
-    background: url("../src/img/bg-about.png") center 0 no-repeat;
+    background: url(/src/img/bg-about.png) center 0 no-repeat;
     height: 1000px;
 }
 
@@ -227,7 +229,7 @@ button.sing-out:hover{
 .checklist {
     width: 24px;
     height: 24px;
-    background: url("../src/img/checklist.png") 0 0 no-repeat;
+    background: url(/src/img/checklist.png) 0 0 no-repeat;
     float: left;
 
 }
@@ -322,11 +324,11 @@ button.sing-out:hover{
 }
 
 .newsletter {
-    padding-top: 120px;
+    padding-top: 130px;
 }
 
 .newsletter-wrapper {
-    padding: 50px;
+    padding: 70px;
 
 }
 
@@ -334,7 +336,7 @@ button.sing-out:hover{
     color: #ffffff;
     font-size: 20px;
     line-height: 28px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 
 
 
@@ -356,7 +358,7 @@ button.sing-out:hover{
     background: none;
     border: none;
     color: #ffffff;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     
 
 }
@@ -383,7 +385,7 @@ button.sing-out:hover{
 }
 
 .newsletter-submit {
-    background: url("../src/img/send-email.png") 0 0 no-repeat;
+    background: url(/src/img/send-email.png) 0 0 no-repeat;
     width: 34px;
     height: 34px;
     border: none;
@@ -480,3 +482,23 @@ button.sing-out:hover{
 
 
 }
+
+.sobre-nos {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 130px;
+  }
+  
+  .sobre-nos h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .sobre-nos p {
+    color: #666;
+    font-size: 18px;
+  }
+  
